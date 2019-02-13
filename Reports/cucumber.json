@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To verify vehicle has insurance cover",
+        "description": "",
+        "id": "to-check-vechile-insurance-cover;to-verify-vehicle-has-insurance-cover",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5860607648,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am At home screen",
+            "match": {
+              "location": "SearchVehicle.i_am_At_home_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102795308,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter vehicle registration",
+            "match": {
+              "location": "SearchVehicle.i_enter_vehicle_registration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86846285,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on find vehicle button",
+            "match": {
+              "location": "SearchVehicle.click_on_find_vehicle_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3175730374,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can see the results",
+            "match": {
+              "location": "SearchVehicle.i_can_see_the_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 801663094,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "SearchVehicle.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To check vechile insurance cover",
+    "description": "",
+    "id": "to-check-vechile-insurance-cover",
+    "keyword": "Feature",
+    "uri": "src/Feature Files/SearchVehicle.feature"
+  }
+]
